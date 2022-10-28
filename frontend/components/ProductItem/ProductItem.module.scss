@@ -1,0 +1,12 @@
+.label {
+    right: -6px;
+    &::before {
+        position: absolute;
+        content: '';
+        right: 0;
+        bottom: -8px;
+        border-color:#ab2000 transparent transparent #ab2000 ;
+        border-width: 4px;
+        z-index: 0;
+    }
+}
